@@ -137,15 +137,14 @@ class ElectricPokemon extends Pokemon {
 }
 
 public class Main {
-    // Stap 5: Maak de main-methode aan
+
     public static void main(String[] args) {
-        // Stap 6: Instantieer 4 verschillende Pokemon-objecten van verschillende klassen
+
         Pokemon pikachu = new ElectricPokemon("Pikachu", 10, 100, "Thunderbolt");
         Pokemon charmander = new FirePokemon("Charmander", 5, 80, "Fire Spin");
         Pokemon squirtle = new WaterPokemon("Squirtle", 8, 90, "Water Gun");
         Pokemon bulbasaur = new GrassPokemon("Bulbasaur", 7, 85, "Vine Whip");
 
-        // Stap 7: Voer verschillende methodes uit van verschillende Pokemons
         pikachu.attack();
         charmander.xpUp();
         squirtle.attack();
