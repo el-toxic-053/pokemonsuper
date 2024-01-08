@@ -57,7 +57,7 @@ class FirePokemon extends Pokemon {
         System.out.println(getName() + "used Ember!" );
     }
 
-    // getters and setters
+
     public String getSpecialAbility() {
         return specialAbility;
     }
@@ -80,7 +80,7 @@ class WaterPokemon extends Pokemon {
         System.out.println(getName() + " used Hydro Blast!");
     }
 
-    // getters and setters
+
     public String getWaterAttack() {
         return waterAttack;
     }
@@ -103,7 +103,7 @@ class GrassPokemon extends Pokemon{
         System.out.println(getName() + " used Vine Whip!");
     }
 
-    // getters and setters
+
     public String getGrassAttack() {
         return grassAttack;
     }
@@ -126,7 +126,7 @@ class ElectricPokemon extends Pokemon {
         System.out.println(getName() + " used Thunderbolt!");
     }
 
-    // getters and setters
+
     public String getElectricAttack() {
         return electricAttack;
     }
@@ -143,9 +143,7 @@ public class Main {
         Pokemon pikachu = new ElectricPokemon("Pikachu", 10, 100, "Thunderbolt");
         Pokemon charmander = new FirePokemon("Charmander", 5, 80, "Fire Spin");
         Pokemon squirtle = new WaterPokemon("Squirtle", 8, 90, "Water Gun");
-        Pokemon bulbasaur = new GrassPokemon("Bulbasaur", 7, 85, "Vine Whip");
-
-        pikachu.attack();
+        Pokemon bulbasaur = new GrassPokemon("Bulbasaur", 7, 85, "Vine Whip");pikachu.attack();
         charmander.xpUp();
         squirtle.attack();
         bulbasaur.xpUp();
